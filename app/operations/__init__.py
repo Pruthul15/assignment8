@@ -33,9 +33,15 @@ Number = Union[int, float]
 def add(a: Number, b: Number) -> Number:
     """
     Add two numbers and return the result.
-
-    This function logs the operation before performing it and logs the result.
-    Enhanced with logging for monitoring and debugging purposes.
+    
+    How it works:
+    - Takes two numbers as input (integers or floats)
+    - Uses Python's built-in '+' operator to add them together
+    - Returns the sum to the caller
+    - Logs the operation for debugging and monitoring purposes
+    
+    This demonstrates basic arithmetic operation with proper error handling
+    and logging for production applications.
 
     Parameters:
     - a (int or float): The first number to add.
